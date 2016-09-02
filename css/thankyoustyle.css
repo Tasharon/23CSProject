@@ -1,3 +1,4 @@
+/* MOBILE CODE */
 h1 {
   font-size: 24px;
   color: #cfcfcf;
@@ -8,12 +9,48 @@ h1 {
 
 }
 
-div {
+div.thankyou {
   margin: 10px;
   box-sizing: border-box;
 }
 
 .instagram {
-    padding-bottom: 10px;
-    width: 25%;
+    padding: 15px 0;
+    width: 100%;
+}
+
+
+/* TABLET, DESKTOP AND EVERY OTHER THING */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 769px) {
+  .instagram {
+      width: 25%;
+      float: left;
+  }
+
+  #middleIG {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+
+  #middleIG {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+  #middleIG {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
 }

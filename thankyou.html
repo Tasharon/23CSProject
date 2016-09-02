@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>Thank you</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/thankyoustyle.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script type="text/javascript" src="path/to/instafeed.min.js"></script>
   </head>
   <body>
       <div class="thankyou">
@@ -14,10 +15,19 @@
       </p>
       <div class="instagram"><img src="images/instagram.png"/>
       </div>
-      <div class="instagram"><img src="images/instagram.png"/>
+      <div class="instagram" id="middleIG"><img src="images/instagram.png"/>
       </div>
       <div class="instagram"><img src="images/instagram.png"/>
       </div>
+
+      <script type="text/javascript">
+          var feed = new Instafeed({
+              get: 'tagged',
+              tagName: 'duchessofhoxton',
+              clientId: 'YOUR_CLIENT_ID'
+          });
+          feed.run();
+      </script>
 
     <script src="js/main.js"></script>
   </body>
