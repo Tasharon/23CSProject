@@ -42,10 +42,24 @@ header {
 }
 
 h1 {
+  color: #cfcfcf;
+  font-weight:bold;
+  font-weight: 600;
   display: inline-block;
   float: right;
   padding: 1em;
 }
+
+
+  header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #ff5050;
+    display: inline-block;
+    z-index: 500;
+    top: 0;
+  }
 
 #nav-menu-container {
   float:right;
@@ -92,6 +106,7 @@ ul.nav-menu {
     position: fixed;
     background-color: #ff5050;
     display: inline-block;
+
   }
 
   h1 {
