@@ -16,6 +16,7 @@ h1 {
 
 #nav-menu-container {
   float:right;
+  width: 100%;
 }
 
   #nav-bar-button {
@@ -23,6 +24,7 @@ h1 {
     width: 6em;
     float: left;
     height: 50px;
+    background-color: transparent;
   }
 
   /*#title-text {
@@ -63,6 +65,10 @@ ul.nav-menu {
 h1 {
   float: left;
   display: inline-block;
+}
+
+#nav-menu-container {
+  width: 60%;
 }
 
   #nav-bar-button {
