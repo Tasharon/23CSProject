@@ -1,0 +1,39 @@
+body {
+    background-color: #FFE1A8;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    color: #723D46;
+}
+h1, h2, h3, h4, h5 {
+    color: #472D30;
+    font-family: 'Philosopher', sans-serif;
+}
+h1 {
+    font-size: 2em;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    padding: 0.25em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.4em;
+    
+}
+h4 {
+    font-size: 1.1em;
+}
+h5 {
+    font-size: 1em;
+}
+
+@media (min-width: 770px) {
+
+    h1 {
+      float: left;
+      display: inline-block;
+    }
+
+}
