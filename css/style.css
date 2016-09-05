@@ -36,14 +36,15 @@ ul.nav-menu {
 }
 
 /* Thank you Page */
-.thank-you {
-    margin: 10px;
-    box-sizing: border-box;
+.drop {
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
 
 .instagram {
     padding-bottom: 10px;
     width: 25%;
+    float: left;
 }
 
 @media (min-width: 770px) {
