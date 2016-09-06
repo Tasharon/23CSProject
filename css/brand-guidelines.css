@@ -11,16 +11,16 @@ header a, header a:visited {
     color: white;
 }
 header a:active {
-    color: #FFE1A8;
+    color: #000;
 }
 a, a:visited, a:active {
-    color: #723d46;
+    color: #000;
 }
 img {
     max-width: 100%;
 }
 h1, h2, h3, h4, h5 {
-    color: #472D30;
+    color: #fff;
     font-family: 'Philosopher', sans-serif;
 }
 h1 {
