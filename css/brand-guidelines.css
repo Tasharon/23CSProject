@@ -7,11 +7,14 @@ body {
     font-size: 14px;
     color: #723D46;
 }
-a, a:visited {
+header a, header a:visited {
     color: white;
 }
-a:active {
+header a:active {
     color: #FFE1A8;
+}
+a, a:visited, a:active {
+    color: #723d46;
 }
 img {
     max-width: 100%;

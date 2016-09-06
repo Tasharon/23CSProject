@@ -33,6 +33,9 @@ header {
     text-align: center;
     background-color: transparent;
 }
+.hero-image {
+    height: 200px;
+}
 footer {
     clear: left;
     display: block;
