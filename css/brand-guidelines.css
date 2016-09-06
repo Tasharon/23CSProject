@@ -1,19 +1,31 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: #FFE1A8;
+    background-color: #fff;
     font-family: 'Hind', sans-serif;
     font-size: 14px;
     color: #723D46;
+}
+a, a:visited {
+    color: white;
+}
+a:active {
+    color: #FFE1A8;
+}
+img {
+    max-width: 100%;
 }
 h1, h2, h3, h4, h5 {
     color: #472D30;
     font-family: 'Philosopher', sans-serif;
 }
 h1 {
+    clear: right;
     font-size: 2em;
-    display: inline-block;
-    float: right;
-    text-align: center;
-    padding: 0.25em;
+    display: block;
+    text-align: left;
+    padding: 0.25em 0;
 }
 h2 {
     font-size: 1.7em;
@@ -28,12 +40,16 @@ h4 {
 h5 {
     font-size: 1em;
 }
+.logo {
+    float: none;
+    margin: 10px 0px;
+    max-height: 30px;
+}
+
 
 @media (min-width: 770px) {
-
-    h1 {
-      float: left;
-      display: inline-block;
+    .logo {
+        float: left;
     }
 
 }
