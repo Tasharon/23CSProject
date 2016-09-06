@@ -31,10 +31,10 @@ header a, header a:visited {
     color: white;
 }
 header a:active {
-    color: #FFE1A8;
+    color: #000;
 }
 a, a:visited, a:active {
-    color: #723d46;
+    color: #000;
 }
 img {
     max-width: 100%;
@@ -42,12 +42,12 @@ img {
 
 /* Header Styles */
 h1, h2, h3, h4, h5 {
-    color: #472D30;
+    color: #000;
     font-family: 'Philosopher', sans-serif;
 }
 h1 {
     clear: right;
-    color: white;
+    color: #fff;
     font-size: 3em;
     display: block;
     text-align: left;
