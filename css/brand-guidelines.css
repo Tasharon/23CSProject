@@ -1,3 +1,12 @@
+/* Common Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/* Styles */
 * {
     box-sizing: border-box;
 }
@@ -48,7 +57,6 @@ h5 {
     margin: 10px 0px;
     max-height: 30px;
 }
-
 
 @media (min-width: 770px) {
     .logo {
