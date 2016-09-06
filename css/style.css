@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 img {
   margin: 2em;
 }
@@ -76,9 +77,10 @@ h1 {
     position: fixed;
     background-color: #ff5050;
 =======
+=======
+>>>>>>> 47d1fa1bcaa4310d4f1e39ff11d42f0a91007d56
 header {
     background-color: #e26d5c;
->>>>>>> fce5d5652ca07c705aaeca6d381d85b978a5bccb
     display: inline-block;
     height: 50px;
     text-align: center;
@@ -110,47 +112,20 @@ header {
     float: none;
     padding: 1em;
     text-align: center;
-<<<<<<< HEAD
-    background-color: #ccccff;
-  }
-
-<<<<<<< HEAD
-/* Thank you Page */
-.drop {
-  padding-top: 60px;
-  padding-bottom: 10px;
-}
-
-.instagram {
-    padding-bottom: 10px;
-    width: 25%;
-    float: left;
-}
-=======
-  #content {
-   margin-top: 50px;
-  }
-
->>>>>>> 5029ecce5170abdadd6c7a14cc0423eb60aa25e5
-
-@media (min-width: 770px) {
-  header {
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    background-color: #ff5050;
-    display: inline-block;
-
-  }
-=======
     background-color: transparent;
 }
 .hero-image {
     height: 200px;
 }
 footer {
-    clear: left;
+    background-color: #472D30;
+    color: #FFE1A8;
     display: block;
+    height: 10em;
+    padding: 3em 0;
+    padding: 3em 0;
+    position: absolute;
+    width: 100%;
 }
 /* Content */
 #content {
@@ -161,7 +136,6 @@ footer {
     max-width: 90%;
     margin: auto;
 }
->>>>>>> fce5d5652ca07c705aaeca6d381d85b978a5bccb
 
 /* Thank you Page */
 .thank-you {
@@ -215,12 +189,6 @@ footer {
 
 @media (min-width: 769px) {
     /* Navigation & Header */
-    header {
-        width: 100%;
-        height: 50px;
-        background-color: #e26d5c;
-        display: inline-block;
-    }
     #nav-menu-container {
         width: 50%;
     }
