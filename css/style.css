@@ -2,12 +2,11 @@ header {
     background-color: #e26d5c;
     display: inline-block;
     height: 50px;
-    position: fixed;
+    text-align: center;
     top: 0;
     width: 100%;
     z-index: 200;
 }
-
 #nav-bar-button {
     background-color: transparent;
     border: none;
@@ -19,28 +18,33 @@ header {
     font-size: 1.2em;
     outline: none;
 }
-
 #nav-menu-container {
     background-color: #e26d5c;
     float:right;
     width: 100%;
 }
-
 .nav-menu {
     clear: left;
     display: none;
 }
-
 .nav-menu li {
     float: none;
     padding: 1em;
     text-align: center;
     background-color: transparent;
 }
-
+footer {
+    clear: left;
+    display: block;
+}
+/* Content */
 #content {
-    margin-top: 50px;
     overflow: hidden;
+    padding: 1em 0;
+}
+.content-container {
+    max-width: 90%;
+    margin: auto;
 }
 
 /* Thank you Page */
@@ -83,16 +87,21 @@ header {
 
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 769px) {
-
+@media only screen and (min-width : 1200px) {
+    .content-container {
+        max-width: 1170px;
+    }
 }
 
-@media (min-width: 770px) {
+/* Medium Devices, Wide Screens */
+@media only screen and (min-width : 992px) {
+}
+
+@media (min-width: 769px) {
     /* Navigation & Header */
     header {
         width: 100%;
         height: 50px;
-        position: fixed;
         background-color: #e26d5c;
         display: inline-block;
     }
@@ -114,13 +123,6 @@ header {
         display: inline-block;
         margin: 0 1em;
         text-align:center;
-    }
-    #content {
-        margin-top: 50px;
-    }
-    .content-container {
-        max-width: 1170px;
-        margin: auto;
     }
     .image-container {
         float: left;
