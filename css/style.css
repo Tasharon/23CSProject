@@ -1,5 +1,5 @@
 header {
-    background-color: #ff5050;
+    background-color: #e26d5c;
     display: inline-block;
     height: 50px;
     position: fixed;
@@ -10,13 +10,18 @@ header {
 
 #nav-bar-button {
     background-color: transparent;
+    border: none;
     display: inline-block;
     float: left;
     height: 50px;
     width: 20%;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    outline: none;
 }
 
 #nav-menu-container {
+    background-color: #e26d5c;
     float:right;
     width: 100%;
 }
@@ -68,12 +73,12 @@ header {
 .text {
     left: 0;
     top: 0;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,225,168,0.7);
     position: absolute;
     text-align: left;
     width: 100%;
     height: 100%;
-    color: green;
+    color: #723d46;
 }
 
 
@@ -92,7 +97,7 @@ header {
         display: inline-block;
     }
     #nav-menu-container {
-        width: 50%;
+        width: 50%; 
     }
     #nav-bar-button {
         display: inline-block;
