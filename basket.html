@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Blog</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Hind|Philosopher" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/brand-guidelines.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-  </head>
-  <body>
-	<header>
+
+<head>
+	<meta charset="utf-8">
+	<title>Payment</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Hind|Philosopher" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/brand-guidelines.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
         <div class="content-container">
             <button id="nav-bar-button">
                 <h3>Menu</h3>
@@ -36,10 +38,32 @@
             </nav>
         </div>
 	</header>
-      <div id="content" class="content-container">
-        <h1>Blog</h1>
-      </div>
-      <footer>
+    <div class="hero-image" style="background-image:url('images/high-quality/photo-1446530458149-8c0eb566fd36.jpg')">
+    </div>
+	<div id="content" class="content-container">
+        <h1>Basket</h1>
+        <h2 class="center"><a href="checkout.html">Go to checkout</a></h2>
+        <form>
+            Name:
+            <br>
+            <input type="text" name="name">
+            <br> Card number
+            <br>
+            <input type="text" name="cardnumber">
+            <br> Expiry
+            <br>
+            <input type="text" name="expiry">
+            <br> CCV
+            <br>
+            <input type="number" name="expiry">
+            <br> Post code
+            <br>
+            <input type="text" name="pos">
+            <button type="submit" name="submitbutton">Submit</button>
+        </form>
+        <br />
+	</div>
+    <footer>
         <div class="content-container">
             <div class="left">
                 &copy; 23 Code Street 2016.
@@ -59,7 +83,8 @@
             </div>
         </div>
     </footer>
-    <script src="js/jquery-3.1.0.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
 </html>
