@@ -1,5 +1,83 @@
+<<<<<<< HEAD
+img {
+  margin: 2em;
+}
+
+.image-container {
+  display: block;
+  position: relative;
+  overflow: visible;
+  text-align: center;
+  height: 100%;
+}
+.image {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+.text {
+  left: 0;
+  top: 0;
+  background: rgba(255,255,255,0.5);
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  color: green;
+}
+
+h2 {
+  color: #006400;
+  font-weight:bold;
+  font-weight: 600;
+  display: inline-block;
+  float: left;
+  padding: 1em;
+}
+
+p {
+  color: #006400;
+  font-weight:bold;
+  font-weight: 600;
+  display: inline-block;
+  float: ;
+  padding: 1em;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 769px) {
+  .image-container {
+    float: left;
+    width: 33.333%;
+  }
+}
+
+header {
+  width: 100%;
+  height: 2em;
+  position: fixed;
+  background-color: #ff5050;
+  display: inline-block;
+}
+
+h1 {
+  color: #cfcfcf;
+  font-weight:bold;
+  font-weight: 600;
+  display: inline-block;
+  float: right;
+}
+
+
+  header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #ff5050;
+=======
 header {
     background-color: #e26d5c;
+>>>>>>> fce5d5652ca07c705aaeca6d381d85b978a5bccb
     display: inline-block;
     height: 50px;
     text-align: center;
@@ -31,6 +109,39 @@ header {
     float: none;
     padding: 1em;
     text-align: center;
+<<<<<<< HEAD
+    background-color: #ccccff;
+  }
+
+<<<<<<< HEAD
+/* Thank you Page */
+.drop {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.instagram {
+    padding-bottom: 10px;
+    width: 25%;
+    float: left;
+}
+=======
+  #content {
+   margin-top: 50px;
+  }
+
+>>>>>>> 5029ecce5170abdadd6c7a14cc0423eb60aa25e5
+
+@media (min-width: 770px) {
+  header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #ff5050;
+    display: inline-block;
+
+  }
+=======
     background-color: transparent;
 }
 .hero-image {
@@ -55,6 +166,7 @@ footer {
     max-width: 90%;
     margin: auto;
 }
+>>>>>>> fce5d5652ca07c705aaeca6d381d85b978a5bccb
 
 /* Thank you Page */
 .thank-you {
