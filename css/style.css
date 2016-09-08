@@ -19,6 +19,9 @@ header {
     font-size: 1.2em;
     outline: none;
 }
+.logo {
+  float: left;
+}
 #nav-menu-container {
     background-color: #e26d5c;
     float:right;
@@ -135,6 +138,9 @@ input[type="submit"] {
     display: block;
     margin: 1em;
 }
+/*Products Page*/
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .content-container {
@@ -149,7 +155,7 @@ input[type="submit"] {
 @media (min-width: 769px) {
     /* Navigation & Header */
     #nav-menu-container {
-        width: 70%;
+        width: 75%;
     }
     #nav-bar-button {
         display: inline-block;
