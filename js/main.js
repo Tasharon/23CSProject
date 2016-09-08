@@ -12,3 +12,7 @@ window.onresize = function() {
     $('.nav-menu').hide();
     }
 };
+
+$("form").submit(function(e) {
+  e.preventDefault();
+});

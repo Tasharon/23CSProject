@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<header>
+    <header>
         <div class="content-container">
             <button id="nav-bar-button">
                 <h3>Menu</h3>
@@ -38,16 +38,19 @@
             </nav>
         </div>
 	</header>
+    <div class="hero-image" style="background-image:url('images/high-quality/photo-1446530458149-8c0eb566fd36.jpg')">
+    </div>
 	<div id="content" class="content-container">
         <h1>Shipping</h1>
+		<h2 class="center">Address</h2>
 		<form>
 			Name:
 			<br>
 			<input type="text" name="name">
-			<br> Address
+			<br> Address line 1
 			<br>
 			<input type="text" name="cardnumber">
-			<br> Address 2
+			<br> Address line 2
 			<br>
 			<input type="text" name="expiry">
 			<br> Town/City
@@ -56,12 +59,12 @@
 			<br> Post Code
 			<br>
 			<input type="text" name="pos">
-            <input type="submit" name="submitbutton" value="submit"></input>
+			<button type="submit" name="submitbutton" onclick="window.location.href='checkout.html'">Submit</button>
 		</form>
 		<br />
 
 	</div>
-    
+
     <footer>
         <div class="content-container">
             <div class="left">

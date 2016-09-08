@@ -12,7 +12,7 @@ header {
     background-color: transparent;
     border: none;
     display: inline-block;
-    float: left;
+    float: right;
     height: 50px;
     width: 20%;
     text-transform: uppercase;
@@ -67,6 +67,7 @@ footer {
 #content {
     padding: 2em 0;
     overflow: hidden;
+    min-height: 290px;
 }
 .content-container {
     max-width: 90%;
@@ -74,15 +75,30 @@ footer {
     overflow: hidden;
 }
 
+/*Basket*/
+
+#bskt-text {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 /* Thank you Page */
 .thank-you {
     margin: 10px;
     box-sizing: border-box;
 }
+
+#ty-text {
+  margin: auto;
+  text-align: center;
+}
+
 .instagram {
     padding-bottom: 10px;
-    width: 25%;
-    float: left;
+    width: 30%;
+    /*margin: auto;*/
+    display: inline-block;
+    /*float: left;*/
 }
 
 /* Home Page */
@@ -133,7 +149,7 @@ input[type="submit"] {
 @media (min-width: 769px) {
     /* Navigation & Header */
     #nav-menu-container {
-        width: 50%; 
+        width: 70%;
     }
     #nav-bar-button {
         display: inline-block;
