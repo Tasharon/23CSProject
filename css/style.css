@@ -79,7 +79,6 @@ footer {
 }
 
 /*Basket*/
-
 #bskt-text {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -138,8 +137,16 @@ input[type="submit"] {
     display: block;
     margin: 1em;
 }
-/*Products Page*/
 
+/*Products Page*/
+#placeholders {
+    text-align: center;
+    margin: auto;
+}
+#placeholders img {
+    box-sizing: border-box;
+    padding: 1em;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
